@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/img.jpeg" alt="Varun Balle" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Varun Balle">Varun Balle</h1>
+
+          <p class="title">Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ballevarun55@gmail.com" class="contact-link">ballevarun55@gmail.com</a>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+14438511426" class="contact-link">+1 (443) 851-1426</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Maryland, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/varunballe/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/varun570" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Data Enthusiast with a robust academic foundation and hands-on experience in data analysis, statistical modeling, and data visualization. 
+            I leverage Python, JavaScript, and SQL to conquer complex challenges and craft impactful, data-driven solutions. 
+            Fueled by a burning passion to unlock the power of data and a desire to contribute to a future-oriented data team.
+          </p>
+
+          <p>
+            Possess a deep understanding of data analytics principles and methodologies, allowing me to effectively translate raw data into actionable insights. 
+            My proficiency in software development tools enables me to build robust data pipelines and applications, ensuring efficient data manipulation and analysis.
+          </p>
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ml_icon.png" alt="ml icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Leveraged ML algorithms to  train systems to tackle specific tasks by feeding them data and improving their performance on specific tasks.                 </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/nlp_icon.png" alt="nlp icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Natural Language Processing</h4>
+
+                <p class="service-item-text">
+                  Bridged the gap between human languages and computers, enabling machines to understand and manipulate our words.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/da_icon.png" alt="da icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                  Extracted valuable insights and knowledge from raw data to solve problems and inform decisions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/sp_icon.png" alt="sp icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Supply Chain</h4>
+
+                <p class="service-item-text">
+                  Managed the flow of goods from source to customer while continuously improving processes to optimize efficiency and value.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <a href="./assets/images/Varun Balle Resume 2024.docx" download="Varun Balle Resume2024.docx">
+          <button class="download-button">
+            <i class="fas fa-download"></i> Download Resume
+          </button>
+        </a>
+        <br>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Teaching Assistant, Baltimore City Public School System(BCPSS)</h4>
+
+              <span>July 2023 — May 2024</span>
+
+              <p class="timeline-text">
+                •	Led intensive teaching programs for Baltimore students in grades 2 to 9, boosting average student scores in math by 10%.
+            <br>•	Customized teaching sessions to match each student's unique needs, ensuring a personalized learning journey that resulted in increased confidence and motivation.
+                
+              </p>
+            </li>
+          </ol>
+          
+        </section>
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Masters in Professional Studies in Data Science</h4>
+
+              <span>August 2022 — May 2024</span>
+
+              <p class="timeline-text">
+                University Of Maryland Baltimore County
+              <br>GPA: 3.9/4.0
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelors in Computer Science and Engineering</h4>
+
+              <span>August 2018 — May 2022</span>
+
+              <p class="timeline-text">
+                CVR College of Engineering
+                <br>GPA: 3.5/4.0
+              </p>
+
+            </li>
+          </ol>
+        </section>
+        
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming</h4>
+
+                <p class="service-item-text">
+                  SQL, Python, R, JAVA, C++, BigQuery
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Tools</h4>
+
+                <p class="service-item-text">
+                  MS SQL Server, Spark, Scala, Oracle Apache, Apache Airflow, <br>
+                  Tableau, SAS, MATLAB, GCP, AWS, Azure
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Systems</h4>
+
+                <p class="service-item-text">
+                  MySQL, MongoDB, Relational Databases
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Tools</h4>
+
+                <p class="service-item-text">
+                  JIRA, GitHub, MS Excel, MS Word, MS Excel, Informix, MS Access, MS Power BI, MS PowerApps
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>EDA</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>ML & Big Data</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>NLP</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>App Development</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>EDA</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>ML & Big Data</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>NLP</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>App Developement</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="eda">
+              <a href="https://github.com/varun570/EDA-COVID-19">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/EDA 1.jpeg" alt="covid" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">COVID-19</h3>
+
+                <p class="project-category">EDA</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="eda">
+              <a href="https://github.com/varun570/EDA-Wholesale-Clubs">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/EDA 2.jpg" alt="wholesale" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Wholesale Clubs</h3>
+
+                <p class="project-category">EDA</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ml & big data">
+              <a href="https://github.com/varun570/Flight-Delay-Analysis-and-Prediction">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ML 1.jpeg" alt="flights" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Flight Delay Analysis and Prediction</h3>
+
+                <p class="project-category">ML & Big Data</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ml & big data">
+              <a href="https://github.com/varun570/Digit-Classification">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ML 2.jpeg" alt="digits" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Digit Classfication</h3>
+
+                <p class="project-category">Ml & Big Data</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ml & big data">
+              <a href="https://github.com/varun570/Regression-Model-for-Predicting-Stock-Price-">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ML 3.jpg" alt="stocks" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Regression Model for Predicting Stock Price</h3>
+
+                <p class="project-category">ML & Big Data</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ml & big data">
+              <a href="https://github.com/varun570/Data-Analysis-Maryland-Carshes">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ML 4.jpeg" alt="crashes" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Data Analysis Maryland Vehicular Crashes</h3>
+
+                <p class="project-category">ML & BIg Data</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="nlp">
+              <a href="https://github.com/varun570/India-China-Trade-Relations-NLP-Perspective">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/NLP 1.jpg" alt="indian china" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">India-China Trade Relations NLPPerspective</h3>
+
+                <p class="project-category">NLP</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app development">
+              <a href="https://github.com/varun570/Campus-Recruitment-System">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/AD 1.jpg" alt="crs" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Campus Recruitment System</h3>
+
+                <p class="project-category">App Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app development">
+              <a href="https://github.com/varun570/Attendance-Tracker-Mobile-App">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/AD 2.jpg" alt="attendance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Attendance Tracker Mobile App</h3>
+
+                <p class="project-category">App development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
